@@ -1,7 +1,9 @@
 #include <iostream>
 #include "Menu.h"
 #include "Mejora.h"
+#include "Libro.h"
 #include <string>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -25,8 +27,13 @@ void Menu::subclases(Menu menu)
     cout<<"(4)estadisticas de mejora"<<endl;
     cout<<"¿Cual eliges campion?: "<<endl;
     cin>>xeleccion;
+    system("cls");
     if (xeleccion == 1)
     {
         Mejora mejora(menu);
+    }
+    if (xeleccion == 3)
+    {
+        Libro libro(menu);
     }
 }

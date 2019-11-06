@@ -34,9 +34,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Libro.h" />
 		<Unit filename="include/Mejora.h" />
 		<Unit filename="include/Menu.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Libro.cpp" />
 		<Unit filename="src/Mejora.cpp" />
 		<Unit filename="src/Menu.cpp" />
 		<Extensions>
